@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
@@ -89,6 +89,12 @@
 	   width: 70px;
 	   height: 70px;
 		}
+		
+	  #ongoing{
+	  width:80% !important;
+	  border-radius:5px !important;
+	  }
+		
     }
 	
 	.google-map-area {
@@ -132,7 +138,7 @@
         <a href="https://api.whatsapp.com/send?phone=6282240085012&text=Halo%2C%20blitiket%2C%20saya%20ingin%20bertanya" target="_blank" class="text-white hover:text-blue-300">Contact</a>
       </div>
       <div class="md:hidden">
-        <button id="mobile-menu-button" class="text-white">
+        <button id="mobile-menu-button" class="text-white" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=6282240085012&text=Halo%2C%20blitiket%2C%20saya%20ingin%20bertanya';">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-6 w-6">
             <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 110-2h6a1 1 0 110 2H9z" clip-rule="evenodd" />
           </svg>
@@ -167,7 +173,7 @@
   </div>
 </div>
 
-<img src="tiket-konser-ongoing.jpg" onclick="window.location.href = 'https://event.blitiket.id';" style="cursor: pointer; display: block; margin: 0 auto; border-radius: 10px;" />
+<img id="ongoing" src="tiket-konser-ongoing.jpg" onclick="window.location.href = 'https://event.blitiket.id';" style="cursor: pointer; display: block; margin: 0 auto; border-radius: 10px;" />
 
 
 <div id="creative" class="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4 p-10">
@@ -331,3 +337,5 @@ $(function () {
 
 </body>
 </html>
+
+
