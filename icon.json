@@ -1,31 +1,31 @@
 [
   {
-    "imageUrl": "pijar.png",
+    "imageUrl": "blitik.png",
     "text": "About",
     "content": "Tentang.html"
   },
   {
-    "imageUrl": "map.png",
-    "text": "Wisata",
-    "content": "Wisata.html"
+    "imageUrl": "Konser.png",
+    "text": "Konser",
+    "content": "Konser.html"
   },
   {
-    "imageUrl": "landscape.png",
-    "text": "Camping",
-	"content": "Camping.html"
+    "imageUrl": "Panggung.png",
+    "text": "Panggung",
+	"content": "Panggung.html"
   },
   {
-    "imageUrl": "tree.png",
-    "text": "Pinus",
-	"content": "Pinus.html"
+    "imageUrl": "Lighting.png",
+    "text": "Lighting",
+	"content": "Lighting.html"
   },
   {
-    "imageUrl": "travel.png",
+    "imageUrl": "Travel.png",
     "text": "Travel",
 	"content": "Travel.html"
   },
   {
-    "imageUrl": "ticket.png",
+    "imageUrl": "Ticket.png",
     "text": "Ticket",
 	"content": "Ticket.html"
   }
