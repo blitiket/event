@@ -148,7 +148,7 @@
 <div id="slideshow" class="slideshow">
   <div class="slideshow-inner" ref="slideshowInner">
     <div v-for="(imageUrl, index) in images" :key="index" class="slideshow-item">
-      <img class="object-cover w-full h-auto" :src="imageUrl" alt="Slideshow Image">
+      <img onclick="window.location.href = 'https://event.blitiket.id';" class="object-cover w-full h-auto" :src="imageUrl" alt="Slideshow Image">
     </div>
   </div>
   <div class="slideshow-dots">
@@ -171,6 +171,7 @@
   </div>
 </div>
 
+<br/>
 <img id="ongoing" src="tiket-konser-ongoing.jpg" onclick="window.location.href = 'https://event.blitiket.id';" style="cursor: pointer; display: block; margin: 0 auto; border-radius: 10px;" />
 
 
