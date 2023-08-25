@@ -1,4 +1,4 @@
-var cacheName = 'pijarfest';
+var cacheName = 'blitiket';
 
 var filesToCache = [
   '/',
@@ -7,10 +7,10 @@ var filesToCache = [
   '/creative.json',
   '/icon.json',
   '/Ticket.html',
+  '/Lighting.html',
+  '/Panggung.html',
+  '/Konser.html',
   '/Travel.html',
-  '/Pinus.html',
-  '/Camping.html',
-  '/Wisata.html',
   '/Tentang.html',
   'https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css',
   'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap',
