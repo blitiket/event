@@ -180,7 +180,7 @@
   </button>
 </div>
 
-<div id="creative" class="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4 p-10">
+<div id="creative" class="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4 p-10 pt-0">
   <div v-for="(item, index) in creativeData" :key="index" class="w-full aspect-w-1 aspect-h-1">
     <a :href="item.linkUrl" target="_blank" rel="noopener noreferrer">
       <img :src="item.imageUrl" :alt="`Image ${index + 1}`" class="object-cover rounded-lg">
