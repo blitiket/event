@@ -9,7 +9,6 @@ var filesToCache = [
   '/Ticket.html',
   '/Lighting.html',
   '/Panggung.html',
-  '/Konser.html',
   '/Travel.html',
   '/Tentang.html',
   'https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css',
